@@ -23,6 +23,9 @@ importers:
       termx:
         specifier: ^1.2.5
         version: 1.2.5
+      toml:
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@types/node':
         specifier: ^20.5.0
@@ -281,6 +284,9 @@ packages:
 
   termx@1.2.5:
     resolution: {integrity: sha512-gfFjpYcYFBp6NuxQ8+vlEZ81UXOl/aci4sihx+gUdGtGajGTi4INlrL7xVH4QE9+xK+91PVI9gvz8epeMBYC2g==}
+
+  toml@3.0.0:
+    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
 
   tr46@4.1.1:
     resolution: {integrity: sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==}
@@ -551,6 +557,8 @@ snapshots:
       strip-ansi: 6.0.1
       ts-node: 8.10.2(typescript@3.9.10)
       typescript: 3.9.10
+
+  toml@3.0.0: {}
 
   tr46@4.1.1:
     dependencies:

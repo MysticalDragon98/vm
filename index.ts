@@ -1,8 +1,13 @@
+#!/usr/bin/env node
+
+import loadConfig from "./lib/modules/config/loadConfig";
+import initCLI from "./plugins/cli/initCLI";
+
 //* Imports
 
 async function main () {
     await Promise.all([
-        //* Main
+        initCLI({ boolean: [] })
     ]);
 
     //* Post Main

@@ -1,5 +1,7 @@
 {
     "type": "ts",
+    "name": "vm",
+    "version": "0.0.0",
     "plugins": [
         "cli"
     ],
